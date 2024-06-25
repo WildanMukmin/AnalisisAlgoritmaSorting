@@ -1,0 +1,47 @@
+1. Selection Sort
+Kompleksitas Waktu: O(n^2)
+
+Best Case: O(n^2)
+Average Case: O(n^2)
+Worst Case: O(n^2)
+Selection Sort selalu memiliki kompleksitas waktu O(n^2) karena setiap elemen harus dibandingkan dengan setiap elemen lainnya dalam array.
+
+2. Bubble Sort
+Kompleksitas Waktu: O(n^2)
+
+Best Case: O(n) (ketika array sudah terurut)
+Average Case: O(n^2)
+Worst Case: O(n^2)
+Bubble Sort memiliki performa terbaik ketika array sudah hampir terurut (O(n)), namun dalam kasus rata-rata dan terburuk, kompleksitas waktunya adalah O(n^2).
+
+3. Quick Sort
+Kompleksitas Waktu:
+
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n^2) (terjadi ketika pivot selalu dipilih sebagai elemen terkecil atau terbesar, misalnya, pada array yang sudah terurut atau terbalik terurut)
+Quick Sort memiliki performa yang sangat baik pada rata-rata kasus dan kasus terbaik, namun bisa jatuh ke O(n^2) dalam kasus terburuk. Dengan menggunakan pemilihan pivot yang baik (seperti median-of-three atau random pivot), kasus terburuk ini bisa dihindari.
+
+4. Merge Sort
+Kompleksitas Waktu: O(n log n)
+
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n log n)
+Merge Sort selalu memiliki kompleksitas waktu O(n log n) karena proses membagi dan menggabungkan array selalu memakan waktu logaritmik terlepas dari urutan awal array.
+
+5. Insertion Sort
+Kompleksitas Waktu:
+
+Best Case: O(n) (terjadi ketika array sudah terurut)
+Average Case: O(n^2)
+Worst Case: O(n^2) (terjadi ketika array terbalik terurut)
+Insertion Sort memiliki performa terbaik pada array yang hampir terurut (O(n)), namun dalam kasus rata-rata dan terburuk, kompleksitas waktunya adalah O(n^2).
+
+Ringkasan:
+
+Selection Sort: O(n^2) untuk semua kasus.
+Bubble Sort: O(n) untuk kasus terbaik, O(n^2) untuk kasus rata-rata dan terburuk.
+Quick Sort: O(n log n) untuk kasus terbaik dan rata-rata, O(n^2) untuk kasus terburuk.
+Merge Sort: O(n log n) untuk semua kasus.
+Insertion Sort: O(n) untuk kasus terbaik, O(n^2) untuk kasus rata-rata dan terburuk.
